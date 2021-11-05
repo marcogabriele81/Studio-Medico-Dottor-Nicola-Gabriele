@@ -61,7 +61,7 @@ pre {
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
-  height: 70px;
+  height: 95px;
 }
 
 .navbar ul {
@@ -80,6 +80,9 @@ pre {
 
 .navbar .flex {
   justify-content: space-between;
+  height: 100p
+  x;
+  width: 100px;
 }
 
 /* Showcase */
@@ -151,6 +154,8 @@ pre {
   -ms-transform: skewY(-3deg);
 }
 
+
+
 /* Stats */
 .stats {
   padding-top: 100px;
@@ -204,6 +209,7 @@ img.photo {
   text-align: center;
   margin: 18px 10px 40px;
   transition: transform 0.2s ease-in;
+  space: between:
 }
 
 .languages .card h4 {
@@ -215,13 +221,14 @@ img.photo {
   transform: translateY(-15px);
 }
 
-/* div {
+
+div {
   height: 300px;
   width: 300px;
   border: 1px solid;
   display: flex;
-  justify-content: center;
-  align-items: center; */
+  justify-content: space-between;
+  align-items: center;
 }
 img {
   max-height: 100%;
