@@ -142,9 +142,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   height: 100%;
+  grid-area: right
+  
 }
 
 .grid-3 {
