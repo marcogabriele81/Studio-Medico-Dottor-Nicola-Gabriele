@@ -34,7 +34,7 @@ h1,
 h2 {
   font-weight: 300;
   line-height: 1.2;
-  margin: 1.5em 0;
+  margin: 10px 0;
 }
 
 p {
@@ -246,21 +246,21 @@ img {
 /* Features */
 .features-head img,
 .docs-head img {
-  width: 1.5em;
+  width: 200px;
   justify-self: flex-end;
 }
 
 .features-sub-head img {
-  width: 1.5em;
+  width: 300px;
   justify-self: flex-end;
 }
 
 .features-main .card > i {
-  margin-right: 1.5em;
+  margin-right: 20px;
   }
 
 .features-main .grid {
-  padding: 1.5em;
+  padding: 30px;
 }
 
 .features-main .grid > *:first-child {
@@ -373,6 +373,7 @@ img {
   .showcase-text {
     text-align: center;
     margin-top: 0;
+    margin-top: 40px;
     animation: slideInFromTop 1s ease-in;
   }
 
@@ -408,7 +409,7 @@ img {
 /* Mobile */
 @media (max-width: 500px) {
   .navbar {
-    height: 1.5em;
+    height: 110px;
   }
 
   .navbar .flex {
@@ -421,9 +422,6 @@ img {
   }
   
   .showcase-form {
-    width: 3%;
-    display: flexbox;
-    flex-direction: column;
-    justify-items: center;
+    width: 300px;
   }
 }
