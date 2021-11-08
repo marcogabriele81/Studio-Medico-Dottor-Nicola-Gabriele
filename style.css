@@ -61,7 +61,7 @@ pre {
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
-  height: 95px;
+  height: 70px;
 }
 
 .navbar ul {
@@ -80,8 +80,6 @@ pre {
 
 .navbar .flex {
   justify-content: space-between;
-  height: 100px;
-  width: 100px;
 }
 
 /* Showcase */
@@ -115,7 +113,7 @@ pre {
   top: 60px;
   height: 350px;
   width: 400px;
-  padding: 1.5em;
+  padding: 40px;
   z-index: 100;
   justify-self: flex-end;
   animation: slideInFromRight 1s ease-in;
@@ -153,10 +151,6 @@ pre {
   -ms-transform: skewY(-3deg);
 }
 
-
-
-
-
 /* Stats */
 .stats {
   padding-top: 100px;
@@ -176,7 +170,9 @@ pre {
   font-size: 20px;
   font-weight: bold;
 }
-
+i {
+  font-size: 48px;
+}
 
 
 /* Cli */
@@ -190,16 +186,14 @@ pre {
   grid-row: 1 / span 2;
 }
 
-/* Medico */
-.Medico .grid {
+/* Cloud */
+.cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
 img.photo {
   border-radius: 20px;
 }
-i {
-  font-size: 48px;
-}
+
 /* Languages */
 
 .languages .flex {
@@ -210,7 +204,6 @@ i {
   text-align: center;
   margin: 18px 10px 40px;
   transition: transform 0.2s ease-in;
-  space: between:
 }
 
 .languages .card h4 {
@@ -222,14 +215,13 @@ i {
   transform: translateY(-15px);
 }
 
-
-div {
+/* div {
   height: 300px;
   width: 300px;
   border: 1px solid;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: center; */
 }
 img {
   max-height: 100%;
@@ -257,7 +249,7 @@ img {
 
 .features-main .card > i {
   margin-right: 20px;
-  }
+}
 
 .features-main .grid {
   padding: 30px;
@@ -360,26 +352,26 @@ img {
   .showcase .grid,
   .stats .grid,
   .cli .grid,
-  .medico .grid,
+  .cloud .grid,
   .features-main .grid,
-  .docs-main 
-}
+  .docs-main .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 
-.showcase {
+  .showcase {
     height: auto;
-    margin-top: 0;
   }
 
   .showcase-text {
     text-align: center;
-    margin-top: 0;
     margin-top: 40px;
     animation: slideInFromTop 1s ease-in;
   }
 
   .showcase-form {
     justify-self: center;
-    margin: 0;
+    margin: auto;
     animation: slideInFromBottom 1s ease-in;
   }
 
