@@ -115,7 +115,7 @@ pre {
   top: 60px;
   height: 350px;
   width: 400px;
-  padding: 40px;
+  padding: 1.5em;
   z-index: 100;
   justify-self: flex-end;
   animation: slideInFromRight 1s ease-in;
@@ -364,20 +364,21 @@ img {
   .features-main .grid,
   .docs-main 
 }
- 
+
 .showcase {
     height: auto;
+    margin-top: 0;
   }
 
   .showcase-text {
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 0;
     animation: slideInFromTop 1s ease-in;
   }
 
   .showcase-form {
     justify-self: center;
-    margin: auto;
+    margin: 0;
     animation: slideInFromBottom 1s ease-in;
   }
 
