@@ -2,7 +2,7 @@
   max-width: 1100px;
   margin: 0 auto;
   overflow: auto;
-  padding: 0 40px;
+  padding: auto;
 }
 
 .card {
@@ -10,8 +10,18 @@
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin: 10px;
+  /* padding: 20px; */
+  /* margin: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  /* margin: auto; */
+  /* padding: 20px; */
+  /* width: 200px; */
+  /* height: 175px; */
+  flex-direction: row;
+  align-content: space-around;
+
 }
 
 .btn {
@@ -136,17 +146,18 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  flex-direction: column;
+  
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 1px;
   justify-content: end;
-  align-items: center;
+  /* align-items: center; */
   height: 100%;
-  grid-area: right
+  grid-area: right;
+  grid-gap: 20px;
   
 }
 
